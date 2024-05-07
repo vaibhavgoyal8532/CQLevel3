@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>compliancequest__Org_Region__c</fullName>
+    <deprecated>false</deprecated>
+    <description>This field records region for nonconformance.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The region that is responsible for the NC.</inlineHelpText>
+    <label>Org. Region</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>compliancequest__Org_Business_Unit__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetName>compliancequest__SQX_Region</valueSetName>
+        <valueSettings>
+            <controllingFieldValue>Sample Business Unit</controllingFieldValue>
+            <valueName>Sample Region</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Business Unit 1</controllingFieldValue>
+            <valueName>Region number 1</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Business Unit 2</controllingFieldValue>
+            <valueName>Region number 2</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Business Unit 3</controllingFieldValue>
+            <valueName>Region number 3</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

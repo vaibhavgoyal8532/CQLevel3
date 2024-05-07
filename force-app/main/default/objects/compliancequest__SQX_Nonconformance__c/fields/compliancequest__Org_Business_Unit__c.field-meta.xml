@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>compliancequest__Org_Business_Unit__c</fullName>
+    <deprecated>false</deprecated>
+    <description>This field records business unit for nonconformance.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The business unit that is responsible for the NC.</inlineHelpText>
+    <label>Org. Business Unit</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>compliancequest__Org_Division__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetName>compliancequest__SQX_Business_Unit</valueSetName>
+        <valueSettings>
+            <controllingFieldValue>Sample Division</controllingFieldValue>
+            <valueName>Sample Business Unit</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Division one</controllingFieldValue>
+            <valueName>Business Unit 1</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Division two</controllingFieldValue>
+            <valueName>Business Unit 2</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Division three</controllingFieldValue>
+            <valueName>Business Unit 3</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

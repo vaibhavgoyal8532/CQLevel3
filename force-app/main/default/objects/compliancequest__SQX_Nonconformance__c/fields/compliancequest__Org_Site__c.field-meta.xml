@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>compliancequest__Org_Site__c</fullName>
+    <deprecated>false</deprecated>
+    <description>This field records site for nonconformance.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The site that is responsible for the NC.</inlineHelpText>
+    <label>Org. Site</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>compliancequest__Org_Region__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetName>compliancequest__SQX_Site</valueSetName>
+        <valueSettings>
+            <controllingFieldValue>Sample Region</controllingFieldValue>
+            <valueName>Sample Site</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Region number 1</controllingFieldValue>
+            <valueName>Site 1</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Region number 2</controllingFieldValue>
+            <valueName>Site 2</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Region number 3</controllingFieldValue>
+            <valueName>Site 3</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>
